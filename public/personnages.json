@@ -10,5 +10,17 @@
     {
         "nom": "xbot",
         "url": "https://assetsio.gnwcdn.com/Zygarde-Pokemon-Complete-Forme.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+    },
+    {
+        "nom": "blokse",
+        "url": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-scarlet-violet/3/3a/Walking_Wake.jpg"
+    },
+    {
+        "nom": "kalior",
+        "url": "https://64.media.tumblr.com/06b560ca85cc7aa0becb1c937fa5b786/780021991002b240-66/s1280x1920/b6b52af349eb0f6f7276437179f674e6edb7385e.jpg"
+    },
+    {
+        "nom": "laser",
+        "url": "https://i.ebayimg.com/images/g/RVsAAOSw~hZmsbBS/s-l1200.png"
     }
 ]
