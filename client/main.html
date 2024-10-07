@@ -1,0 +1,34 @@
+<head>
+  <title>XBOT</title>
+</head>
+
+<body>
+  <h1>XBOT!</h1>
+  {{> loginButtons}}
+  <hr>
+  {{> hello}}
+  <hr>
+</body>
+
+<template name="hello">
+  <form id="settings">
+    <div class="form-group">
+      <label for="hauteur">Hauteur</label>
+      <input type="number" class="form-control" name="hauteur" value="{{user.settings.hauteur}}">
+    </div>
+    <div class="form-group">
+      <label for="tablebg">Couleur</label>
+      <input type="color" class="form-control" name="tablebg" value="{{user.settings.tablebg}}">
+    </div>
+    <button type="submit" class="btn btn-success">Enregistrer</button>
+  </form>
+  <hr>
+  <table style="width: 100%">
+    <tr style="height: {{user.settings.hauteur}}cm">
+      <td style="background-color: {{user.settings.tablebg}};">
+        a
+      </td>
+    </tr>
+  </table>
+</template>
+
