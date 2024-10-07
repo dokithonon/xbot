@@ -21,3 +21,5 @@ shell-server@0.6.0            # Server-side component of the `meteor shell` comm
 accounts-password
 accounts-ui
 jquery@3.0.2!
+fetch
+underscore

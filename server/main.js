@@ -17,7 +17,12 @@ Meteor.methods({
     this.unblock();
     const userId = Meteor.userId();
     if (!userId) throw new Meteor.Error('rk-err-access-denied', 'Access denied');
-    const user = await Meteor.users.updateAsync(userId, {$set: {settings}});
-    return user;
+    await Meteor.users.updateAsync(userId, {$set: {settings}});
+  },
+  'settings/set/personnage': async function(personnage) {
+    this.unblock();
+    const userId = Meteor.userId();
+    if (!userId) throw new Meteor.Error('rk-err-access-denied', 'Access denied');
+    await Meteor.users.updateAsync(userId, {$set: {personnage}});
   },
 });
